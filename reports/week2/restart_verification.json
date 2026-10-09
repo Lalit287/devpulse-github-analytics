@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "profile": "verification",
+  "verified_hdfs_uri": "hdfs://127.0.0.1:19100",
+  "stop": {
+    "status": "stopped",
+    "daemons": [
+      "datanode",
+      "namenode"
+    ]
+  },
+  "restart": {
+    "namenode": "healthy",
+    "live_datanodes": 1,
+    "profile": "verification",
+    "hdfs_uri": "hdfs://127.0.0.1:19100",
+    "ports": {
+      "rpc": 19100,
+      "namenode_http": 19970,
+      "datanode_http": 19964,
+      "datanode_data": 19966,
+      "datanode_ipc": 19967
+    },
+    "configuration_dir": "/Users/lalitaditya/Desktop/DevPulse/config/hadoop-verification",
+    "runtime_dir": "/Users/lalitaditya/Desktop/DevPulse/.runtime/hdfs-verification",
+    "formatted_new_cluster": false,
+    "reused_running_cluster": false
+  },
+  "namenode_version_sha256": "a2b2d0cf8c686d101b5ca260a7deb630ce58e5e4c00f37f4b5d033c731538d36",
+  "post_restart_verified_files": 24
+}

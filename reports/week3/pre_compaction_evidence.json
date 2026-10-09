@@ -1,0 +1,7 @@
+{
+  "snapshot_id": "af58c7e04f3214f945ed03a9",
+  "clean_events": 3909986,
+  "event_parquet_files": 4608,
+  "output_bytes": 3075755009,
+  "duration_seconds": 187.277
+}

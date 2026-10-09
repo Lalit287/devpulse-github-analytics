@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "snapshot_id": "37f73c2302379bc640363b8a",
+  "verified_at_utc": "2026-10-08T17:25:29.748661+00:00",
+  "criteria": {
+    "Read all 24 real, checksum-verified HDFS gzip archives": true,
+    "Defined common schema and preserved nested payload JSON": true,
+    "Required IDs/timestamps/public flags validated; quarantine retains reasons": true,
+    "Deterministic global event-ID deduplication and duplicate audit": true,
+    "Every input line accounted for": true,
+    "UTC date/hour Snappy Parquet with readback validation": true,
+    "Hourly writer avoids small-file proliferation with unchanged totals": true,
+    "Daily repository activity and action-based metrics verified": true,
+    "New hours extend source inventory without overwriting historical snapshots": true,
+    "Identical rerun reuses a verified snapshot": true,
+    "Quota/input failures preserve current dataset; Spark-failure recovery": true,
+    "Real source-to-Parquet field parity": true,
+    "Automated ETL tests and previous-week regressions pass": true,
+    "Week 1/2 saved artifacts and raw sources unchanged": true,
+    "Reusable CLI, reader helper, contract, and operations guide": true
+  }
+}

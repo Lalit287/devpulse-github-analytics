@@ -1,0 +1,723 @@
+{
+  "stream_id": "rate-1000-2-13504695",
+  "rate_requested": 1000,
+  "trial": 2,
+  "events": 20000,
+  "publication": {
+    "topic": "devpulse.rate-1000-2-13504695",
+    "acknowledged": 20000,
+    "configured_events_per_second": 1000,
+    "elapsed_seconds": 20.0
+  },
+  "elapsed_seconds": 23.413740750002034,
+  "effective_end_to_end_events_per_second": 854.199259039727,
+  "mean_commit_delay_seconds": 1.892532566332817,
+  "p95_commit_delay_seconds": 3.2913658618927,
+  "max_commit_delay_seconds": 4.305397987365723,
+  "failed_batches": 0,
+  "committed_batches": 12,
+  "progress": [
+    {
+      "id": "e19f1d99-6253-4690-ba89-0e512fc677c2",
+      "runId": "06d37f2f-176b-4423-a986-0fb60d759deb",
+      "name": null,
+      "timestamp": "2026-10-09T17:27:24.911Z",
+      "batchId": 0,
+      "batchDuration": 154,
+      "numInputRows": 0,
+      "inputRowsPerSecond": 0.0,
+      "processedRowsPerSecond": 0.0,
+      "durationMs": {
+        "addBatch": 46,
+        "commitOffsets": 31,
+        "getBatch": 1,
+        "latestOffset": 42,
+        "queryPlanning": 2,
+        "triggerExecution": 154,
+        "walCommit": 32
+      },
+      "stateOperators": [],
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[devpulse.rate-1000-2-13504695]]",
+          "startOffset": null,
+          "endOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 0,
+              "1": 0,
+              "2": 0
+            }
+          },
+          "latestOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 0,
+              "1": 0,
+              "2": 0
+            }
+          },
+          "numInputRows": 0,
+          "inputRowsPerSecond": 0.0,
+          "processedRowsPerSecond": 0.0,
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          }
+        }
+      ],
+      "sink": {
+        "description": "ForeachBatchSink",
+        "numOutputRows": -1
+      }
+    },
+    {
+      "id": "e19f1d99-6253-4690-ba89-0e512fc677c2",
+      "runId": "06d37f2f-176b-4423-a986-0fb60d759deb",
+      "name": null,
+      "timestamp": "2026-10-09T17:27:26.003Z",
+      "batchId": 1,
+      "batchDuration": 271,
+      "numInputRows": 1021,
+      "inputRowsPerSecond": 934.9816849816849,
+      "processedRowsPerSecond": 3767.5276752767527,
+      "durationMs": {
+        "addBatch": 185,
+        "commitOffsets": 32,
+        "getBatch": 0,
+        "latestOffset": 7,
+        "queryPlanning": 3,
+        "triggerExecution": 271,
+        "walCommit": 43
+      },
+      "stateOperators": [],
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[devpulse.rate-1000-2-13504695]]",
+          "startOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 0,
+              "1": 0,
+              "2": 0
+            }
+          },
+          "endOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 367,
+              "1": 327,
+              "2": 327
+            }
+          },
+          "latestOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 367,
+              "1": 327,
+              "2": 327
+            }
+          },
+          "numInputRows": 1021,
+          "inputRowsPerSecond": 934.9816849816849,
+          "processedRowsPerSecond": 3767.5276752767527,
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          }
+        }
+      ],
+      "sink": {
+        "description": "ForeachBatchSink",
+        "numOutputRows": -1
+      }
+    },
+    {
+      "id": "e19f1d99-6253-4690-ba89-0e512fc677c2",
+      "runId": "06d37f2f-176b-4423-a986-0fb60d759deb",
+      "name": null,
+      "timestamp": "2026-10-09T17:27:28.004Z",
+      "batchId": 2,
+      "batchDuration": 378,
+      "numInputRows": 1995,
+      "inputRowsPerSecond": 997.0014992503749,
+      "processedRowsPerSecond": 5277.777777777777,
+      "durationMs": {
+        "addBatch": 283,
+        "commitOffsets": 35,
+        "getBatch": 1,
+        "latestOffset": 3,
+        "queryPlanning": 2,
+        "triggerExecution": 378,
+        "walCommit": 53
+      },
+      "stateOperators": [],
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[devpulse.rate-1000-2-13504695]]",
+          "startOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 367,
+              "1": 327,
+              "2": 327
+            }
+          },
+          "endOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 1079,
+              "1": 1013,
+              "2": 924
+            }
+          },
+          "latestOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 1079,
+              "1": 1013,
+              "2": 924
+            }
+          },
+          "numInputRows": 1995,
+          "inputRowsPerSecond": 997.0014992503749,
+          "processedRowsPerSecond": 5277.777777777777,
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          }
+        }
+      ],
+      "sink": {
+        "description": "ForeachBatchSink",
+        "numOutputRows": -1
+      }
+    },
+    {
+      "id": "e19f1d99-6253-4690-ba89-0e512fc677c2",
+      "runId": "06d37f2f-176b-4423-a986-0fb60d759deb",
+      "name": null,
+      "timestamp": "2026-10-09T17:27:30.005Z",
+      "batchId": 3,
+      "batchDuration": 518,
+      "numInputRows": 2002,
+      "inputRowsPerSecond": 1000.4997501249376,
+      "processedRowsPerSecond": 3864.8648648648646,
+      "durationMs": {
+        "addBatch": 424,
+        "commitOffsets": 42,
+        "getBatch": 0,
+        "latestOffset": 4,
+        "queryPlanning": 3,
+        "triggerExecution": 518,
+        "walCommit": 45
+      },
+      "stateOperators": [],
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[devpulse.rate-1000-2-13504695]]",
+          "startOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 1079,
+              "1": 1013,
+              "2": 924
+            }
+          },
+          "endOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 1697,
+              "1": 1665,
+              "2": 1656
+            }
+          },
+          "latestOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 1697,
+              "1": 1665,
+              "2": 1656
+            }
+          },
+          "numInputRows": 2002,
+          "inputRowsPerSecond": 1000.4997501249376,
+          "processedRowsPerSecond": 3864.8648648648646,
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          }
+        }
+      ],
+      "sink": {
+        "description": "ForeachBatchSink",
+        "numOutputRows": -1
+      }
+    },
+    {
+      "id": "e19f1d99-6253-4690-ba89-0e512fc677c2",
+      "runId": "06d37f2f-176b-4423-a986-0fb60d759deb",
+      "name": null,
+      "timestamp": "2026-10-09T17:27:32.003Z",
+      "batchId": 4,
+      "batchDuration": 627,
+      "numInputRows": 1997,
+      "inputRowsPerSecond": 999.4994994994995,
+      "processedRowsPerSecond": 3185.0079744816585,
+      "durationMs": {
+        "addBatch": 535,
+        "commitOffsets": 42,
+        "getBatch": 0,
+        "latestOffset": 4,
+        "queryPlanning": 2,
+        "triggerExecution": 627,
+        "walCommit": 43
+      },
+      "stateOperators": [],
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[devpulse.rate-1000-2-13504695]]",
+          "startOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 1697,
+              "1": 1665,
+              "2": 1656
+            }
+          },
+          "endOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 2303,
+              "1": 2310,
+              "2": 2402
+            }
+          },
+          "latestOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 2303,
+              "1": 2310,
+              "2": 2402
+            }
+          },
+          "numInputRows": 1997,
+          "inputRowsPerSecond": 999.4994994994995,
+          "processedRowsPerSecond": 3185.0079744816585,
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          }
+        }
+      ],
+      "sink": {
+        "description": "ForeachBatchSink",
+        "numOutputRows": -1
+      }
+    },
+    {
+      "id": "e19f1d99-6253-4690-ba89-0e512fc677c2",
+      "runId": "06d37f2f-176b-4423-a986-0fb60d759deb",
+      "name": null,
+      "timestamp": "2026-10-09T17:27:34.003Z",
+      "batchId": 5,
+      "batchDuration": 744,
+      "numInputRows": 2005,
+      "inputRowsPerSecond": 1002.5,
+      "processedRowsPerSecond": 2694.8924731182797,
+      "durationMs": {
+        "addBatch": 639,
+        "commitOffsets": 41,
+        "getBatch": 0,
+        "latestOffset": 5,
+        "queryPlanning": 3,
+        "triggerExecution": 744,
+        "walCommit": 56
+      },
+      "stateOperators": [],
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[devpulse.rate-1000-2-13504695]]",
+          "startOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 2303,
+              "1": 2310,
+              "2": 2402
+            }
+          },
+          "endOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 2898,
+              "1": 3034,
+              "2": 3088
+            }
+          },
+          "latestOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 2898,
+              "1": 3034,
+              "2": 3088
+            }
+          },
+          "numInputRows": 2005,
+          "inputRowsPerSecond": 1002.5,
+          "processedRowsPerSecond": 2694.8924731182797,
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          }
+        }
+      ],
+      "sink": {
+        "description": "ForeachBatchSink",
+        "numOutputRows": -1
+      }
+    },
+    {
+      "id": "e19f1d99-6253-4690-ba89-0e512fc677c2",
+      "runId": "06d37f2f-176b-4423-a986-0fb60d759deb",
+      "name": null,
+      "timestamp": "2026-10-09T17:27:36.003Z",
+      "batchId": 6,
+      "batchDuration": 999,
+      "numInputRows": 1996,
+      "inputRowsPerSecond": 998.0,
+      "processedRowsPerSecond": 1997.997997997998,
+      "durationMs": {
+        "addBatch": 910,
+        "commitOffsets": 44,
+        "getBatch": 0,
+        "latestOffset": 3,
+        "queryPlanning": 3,
+        "triggerExecution": 999,
+        "walCommit": 39
+      },
+      "stateOperators": [],
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[devpulse.rate-1000-2-13504695]]",
+          "startOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 2898,
+              "1": 3034,
+              "2": 3088
+            }
+          },
+          "endOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 3474,
+              "1": 3860,
+              "2": 3682
+            }
+          },
+          "latestOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 3474,
+              "1": 3860,
+              "2": 3682
+            }
+          },
+          "numInputRows": 1996,
+          "inputRowsPerSecond": 998.0,
+          "processedRowsPerSecond": 1997.997997997998,
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          }
+        }
+      ],
+      "sink": {
+        "description": "ForeachBatchSink",
+        "numOutputRows": -1
+      }
+    },
+    {
+      "id": "e19f1d99-6253-4690-ba89-0e512fc677c2",
+      "runId": "06d37f2f-176b-4423-a986-0fb60d759deb",
+      "name": null,
+      "timestamp": "2026-10-09T17:27:38.004Z",
+      "batchId": 7,
+      "batchDuration": 1110,
+      "numInputRows": 2002,
+      "inputRowsPerSecond": 1000.4997501249376,
+      "processedRowsPerSecond": 1803.6036036036035,
+      "durationMs": {
+        "addBatch": 1018,
+        "commitOffsets": 45,
+        "getBatch": 0,
+        "latestOffset": 3,
+        "queryPlanning": 2,
+        "triggerExecution": 1110,
+        "walCommit": 40
+      },
+      "stateOperators": [],
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[devpulse.rate-1000-2-13504695]]",
+          "startOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 3474,
+              "1": 3860,
+              "2": 3682
+            }
+          },
+          "endOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 4125,
+              "1": 4522,
+              "2": 4371
+            }
+          },
+          "latestOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 4125,
+              "1": 4522,
+              "2": 4371
+            }
+          },
+          "numInputRows": 2002,
+          "inputRowsPerSecond": 1000.4997501249376,
+          "processedRowsPerSecond": 1803.6036036036035,
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          }
+        }
+      ],
+      "sink": {
+        "description": "ForeachBatchSink",
+        "numOutputRows": -1
+      }
+    },
+    {
+      "id": "e19f1d99-6253-4690-ba89-0e512fc677c2",
+      "runId": "06d37f2f-176b-4423-a986-0fb60d759deb",
+      "name": null,
+      "timestamp": "2026-10-09T17:27:40.002Z",
+      "batchId": 8,
+      "batchDuration": 1109,
+      "numInputRows": 2004,
+      "inputRowsPerSecond": 1003.003003003003,
+      "processedRowsPerSecond": 1807.0333633904418,
+      "durationMs": {
+        "addBatch": 1007,
+        "commitOffsets": 41,
+        "getBatch": 1,
+        "latestOffset": 9,
+        "queryPlanning": 2,
+        "triggerExecution": 1109,
+        "walCommit": 48
+      },
+      "stateOperators": [],
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[devpulse.rate-1000-2-13504695]]",
+          "startOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 4125,
+              "1": 4522,
+              "2": 4371
+            }
+          },
+          "endOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 4749,
+              "1": 5209,
+              "2": 5064
+            }
+          },
+          "latestOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 4749,
+              "1": 5209,
+              "2": 5064
+            }
+          },
+          "numInputRows": 2004,
+          "inputRowsPerSecond": 1003.003003003003,
+          "processedRowsPerSecond": 1807.0333633904418,
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          }
+        }
+      ],
+      "sink": {
+        "description": "ForeachBatchSink",
+        "numOutputRows": -1
+      }
+    },
+    {
+      "id": "e19f1d99-6253-4690-ba89-0e512fc677c2",
+      "runId": "06d37f2f-176b-4423-a986-0fb60d759deb",
+      "name": null,
+      "timestamp": "2026-10-09T17:27:42.004Z",
+      "batchId": 9,
+      "batchDuration": 1220,
+      "numInputRows": 1998,
+      "inputRowsPerSecond": 998.0019980019981,
+      "processedRowsPerSecond": 1637.704918032787,
+      "durationMs": {
+        "addBatch": 1124,
+        "commitOffsets": 42,
+        "getBatch": 0,
+        "latestOffset": 5,
+        "queryPlanning": 2,
+        "triggerExecution": 1220,
+        "walCommit": 45
+      },
+      "stateOperators": [],
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[devpulse.rate-1000-2-13504695]]",
+          "startOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 4749,
+              "1": 5209,
+              "2": 5064
+            }
+          },
+          "endOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 5374,
+              "1": 5927,
+              "2": 5719
+            }
+          },
+          "latestOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 5374,
+              "1": 5927,
+              "2": 5719
+            }
+          },
+          "numInputRows": 1998,
+          "inputRowsPerSecond": 998.0019980019981,
+          "processedRowsPerSecond": 1637.704918032787,
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          }
+        }
+      ],
+      "sink": {
+        "description": "ForeachBatchSink",
+        "numOutputRows": -1
+      }
+    },
+    {
+      "id": "e19f1d99-6253-4690-ba89-0e512fc677c2",
+      "runId": "06d37f2f-176b-4423-a986-0fb60d759deb",
+      "name": null,
+      "timestamp": "2026-10-09T17:27:44.001Z",
+      "batchId": 10,
+      "batchDuration": 1359,
+      "numInputRows": 1998,
+      "inputRowsPerSecond": 1000.50075112669,
+      "processedRowsPerSecond": 1470.1986754966888,
+      "durationMs": {
+        "addBatch": 1260,
+        "commitOffsets": 41,
+        "getBatch": 0,
+        "latestOffset": 7,
+        "queryPlanning": 2,
+        "triggerExecution": 1359,
+        "walCommit": 48
+      },
+      "stateOperators": [],
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[devpulse.rate-1000-2-13504695]]",
+          "startOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 5374,
+              "1": 5927,
+              "2": 5719
+            }
+          },
+          "endOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 5996,
+              "1": 6647,
+              "2": 6375
+            }
+          },
+          "latestOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 5996,
+              "1": 6647,
+              "2": 6375
+            }
+          },
+          "numInputRows": 1998,
+          "inputRowsPerSecond": 1000.50075112669,
+          "processedRowsPerSecond": 1470.1986754966888,
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          }
+        }
+      ],
+      "sink": {
+        "description": "ForeachBatchSink",
+        "numOutputRows": -1
+      }
+    },
+    {
+      "id": "e19f1d99-6253-4690-ba89-0e512fc677c2",
+      "runId": "06d37f2f-176b-4423-a986-0fb60d759deb",
+      "name": null,
+      "timestamp": "2026-10-09T17:27:46.003Z",
+      "batchId": 11,
+      "batchDuration": 2342,
+      "numInputRows": 982,
+      "inputRowsPerSecond": 490.50949050949055,
+      "processedRowsPerSecond": 419.2997438087105,
+      "durationMs": {
+        "addBatch": 2251,
+        "commitOffsets": 36,
+        "getBatch": 0,
+        "latestOffset": 5,
+        "queryPlanning": 2,
+        "triggerExecution": 2341,
+        "walCommit": 46
+      },
+      "stateOperators": [],
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[devpulse.rate-1000-2-13504695]]",
+          "startOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 5996,
+              "1": 6647,
+              "2": 6375
+            }
+          },
+          "endOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 6298,
+              "1": 6982,
+              "2": 6720
+            }
+          },
+          "latestOffset": {
+            "devpulse.rate-1000-2-13504695": {
+              "0": 6298,
+              "1": 6982,
+              "2": 6720
+            }
+          },
+          "numInputRows": 982,
+          "inputRowsPerSecond": 490.50949050949055,
+          "processedRowsPerSecond": 419.2997438087105,
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          }
+        }
+      ],
+      "sink": {
+        "description": "ForeachBatchSink",
+        "numOutputRows": -1
+      }
+    }
+  ]
+}

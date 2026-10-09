@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "intentional_signal": "SIGINT",
+  "first_run_status": "interrupted",
+  "resume_status": "complete",
+  "resume_downloads": 0,
+  "resumed_hours": 2,
+  "local_audit": "passed",
+  "repeat_reused_publications": 2,
+  "metadata_dir": "/Users/lalitaditya/Desktop/DevPulse/work/week2/recovery_metadata/drill-1791478153639663000"
+}

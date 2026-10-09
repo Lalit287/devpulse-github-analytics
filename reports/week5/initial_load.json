@@ -1,0 +1,160 @@
+{
+  "status": "complete",
+  "run_id": "34bff093-5985-460d-9dfe-efe49af37d9a",
+  "load_id": "61745299597589669e231948",
+  "schema": "dp_61745299597589669e231948",
+  "gold_snapshot_id": "6e03839285499224b0403539",
+  "duration_seconds": 12.842,
+  "copied_rows": 4411083,
+  "tables": 15,
+  "audit": {
+    "activity_calendar": {
+      "rows": 1,
+      "metric_totals": {
+        "total_events": 3909986
+      },
+      "field_sample_checks": 1
+    },
+    "technology_daily": {
+      "rows": 5,
+      "metric_totals": {
+        "total_events": 3909986,
+        "star_events": 173464,
+        "fork_events": 39772,
+        "push_events": 2704254
+      },
+      "field_sample_checks": 5
+    },
+    "language_intraday_growth": {
+      "rows": 9,
+      "metric_totals": {
+        "previous_events": 1810197,
+        "current_events": 2099789
+      },
+      "field_sample_checks": 5
+    },
+    "language_primary_daily": {
+      "rows": 9,
+      "metric_totals": {
+        "total_events": 3909986,
+        "push_events": 2704254,
+        "star_events": 173464,
+        "fork_events": 39772,
+        "pull_request_events": 238548,
+        "issue_comment_events": 113438,
+        "review_events": 52657
+      },
+      "field_sample_checks": 5
+    },
+    "repository_metadata": {
+      "rows": 20,
+      "metric_totals": {},
+      "field_sample_checks": 5
+    },
+    "hourly_activity": {
+      "rows": 24,
+      "metric_totals": {
+        "total_events": 3909986
+      },
+      "field_sample_checks": 5
+    },
+    "language_weighted_daily": {
+      "rows": 62,
+      "metric_totals": {
+        "attributed_total_events": 3909985.9999999995,
+        "attributed_star_events": 173464.0,
+        "attributed_fork_events": 39772.00000000001,
+        "attributed_push_events": 2704254.0,
+        "attributed_pull_requests_opened": 129665.0,
+        "attributed_issues_opened": 26165.0
+      },
+      "field_sample_checks": 5
+    },
+    "repository_language_shares": {
+      "rows": 117,
+      "metric_totals": {},
+      "field_sample_checks": 5
+    },
+    "participation_edges_sample": {
+      "rows": 1000,
+      "metric_totals": {
+        "participation_events": 2883
+      },
+      "field_sample_checks": 5
+    },
+    "account_daily": {
+      "rows": 419709,
+      "metric_totals": {
+        "total_events": 3909986,
+        "push_events": 2704254,
+        "issue_comment_events": 113438,
+        "review_events": 52657,
+        "weekend_events": 0
+      },
+      "field_sample_checks": 5
+    },
+    "account_metrics": {
+      "rows": 419709,
+      "metric_totals": {
+        "total_events": 3909986,
+        "push_events": 2704254,
+        "issue_comment_events": 113438,
+        "review_events": 52657,
+        "weekend_events": 0
+      },
+      "field_sample_checks": 5
+    },
+    "repository_daily": {
+      "rows": 683676,
+      "metric_totals": {
+        "total_events": 3909986,
+        "push_events": 2704254,
+        "star_events": 173464,
+        "fork_events": 39772,
+        "pull_request_events": 238548,
+        "issue_comment_events": 113438,
+        "review_events": 52657
+      },
+      "field_sample_checks": 5
+    },
+    "repository_metrics": {
+      "rows": 683676,
+      "metric_totals": {
+        "total_events": 3909986,
+        "push_events": 2704254,
+        "star_events": 173464,
+        "fork_events": 39772,
+        "pull_request_events": 238548,
+        "issue_comment_events": 113438,
+        "review_events": 52657,
+        "previous_events": 1810197,
+        "current_events": 2099789
+      },
+      "field_sample_checks": 5
+    },
+    "account_hourly": {
+      "rows": 768349,
+      "metric_totals": {
+        "total_events": 3909986,
+        "push_events": 2704254,
+        "issue_comment_events": 113438,
+        "review_events": 52657,
+        "weekend_events": 0
+      },
+      "field_sample_checks": 5
+    },
+    "repository_hourly": {
+      "rows": 1434717,
+      "metric_totals": {
+        "total_events": 3909986,
+        "push_events": 2704254,
+        "star_events": 173464,
+        "fork_events": 39772,
+        "pull_request_events": 238548,
+        "issue_comment_events": 113438,
+        "review_events": 52657
+      },
+      "field_sample_checks": 5
+    }
+  }
+}

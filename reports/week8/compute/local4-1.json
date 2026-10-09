@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "engine": "spark",
+  "source_snapshot": "37f73c2302379bc640363b8a",
+  "source_events": 3909986,
+  "query_seconds": 4.020223040999554,
+  "overall_seconds": 8.723588000000746,
+  "result": {
+    "sha256": "f6cb39e5339db9bef2f4ce9ff77465c5877f01f7bbed98463e94898d5f2a6396",
+    "repository_rows": 683676,
+    "input_events": 3909986
+  },
+  "details": {
+    "application_id": "local-1791564577947",
+    "master": "local[4]",
+    "startup_seconds": 2.2610925830013002,
+    "executors": [
+      {
+        "id": "driver",
+        "hostPort": "127.0.0.1:65411",
+        "isActive": true,
+        "rddBlocks": 0,
+        "memoryUsed": 355205,
+        "diskUsed": 0,
+        "totalCores": 4,
+        "maxTasks": 2,
+        "activeTasks": 0,
+        "failedTasks": 0,
+        "completedTasks": 42,
+        "totalTasks": 42,
+        "totalDuration": 6973,
+        "totalGCTime": 38,
+        "totalInputBytes": 33833764,
+        "totalShuffleRead": 54136969,
+        "totalShuffleWrite": 43561744,
+        "isBlacklisted": false,
+        "maxMemory": 1743991603,
+        "addTime": "2026-10-09T16:49:37.987GMT",
+        "executorLogs": {},
+        "memoryMetrics": {
+          "usedOnHeapStorageMemory": 355205,
+          "usedOffHeapStorageMemory": 0,
+          "totalOnHeapStorageMemory": 1743991603,
+          "totalOffHeapStorageMemory": 0
+        },
+        "blacklistedInStages": [],
+        "peakMemoryMetrics": {
+          "JVMHeapMemory": 966782976,
+          "JVMOffHeapMemory": 190769896,
+          "OnHeapExecutionMemory": 135266176,
+          "OffHeapExecutionMemory": 0,
+          "OnHeapStorageMemory": 534905,
+          "OffHeapStorageMemory": 0,
+          "OnHeapUnifiedMemory": 135600787,
+          "OffHeapUnifiedMemory": 0,
+          "DirectPoolMemory": 5054976,
+          "MappedPoolMemory": 0,
+          "ProcessTreeJVMVMemory": 0,
+          "ProcessTreeJVMRSSMemory": 0,
+          "ProcessTreePythonVMemory": 0,
+          "ProcessTreePythonRSSMemory": 0,
+          "ProcessTreeOtherVMemory": 0,
+          "ProcessTreeOtherRSSMemory": 0,
+          "MinorGCCount": 27,
+          "MinorGCTime": 38,
+          "MajorGCCount": 0,
+          "MajorGCTime": 0,
+          "TotalGCTime": 38,
+          "ConcurrentGCCount": 0,
+          "ConcurrentGCTime": 0
+        },
+        "attributes": {},
+        "resources": {},
+        "resourceProfileId": 0,
+        "isExcluded": false,
+        "excludedInStages": []
+      }
+    ],
+    "completed_stages": 6,
+    "executor_ids_with_tasks": [],
+    "shuffle_partitions": 32,
+    "cores_max": 4,
+    "event_log_directory": "/Users/lalitaditya/Desktop/DevPulse/.runtime/benchmark-events"
+  },
+  "memory": {
+    "python_peak_rss_bytes": 475824128,
+    "largest_reaped_child_peak_rss_bytes": 1743437824,
+    "scope": "individual-process maxima; not concurrent aggregate cluster RSS"
+  }
+}

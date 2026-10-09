@@ -1,0 +1,23 @@
+{
+  "status": "created",
+  "snapshot_id": "6e03839285499224b0403539",
+  "path": "/Users/lalitaditya/Desktop/DevPulse/data/gold/snapshots/6e03839285499224b0403539",
+  "duration_seconds": 11.293,
+  "enrichment": {
+    "selected_repositories": 20,
+    "cache_hits": 20,
+    "http_requests": 0,
+    "request_budget": 50,
+    "rate_limit_remaining": null,
+    "rate_limit_reset": null,
+    "stopped_reason": null,
+    "status_counts": {
+      "identity_mismatch": 1,
+      "not_found": 3,
+      "ok": 16
+    },
+    "completed_at_utc": "2026-10-08T17:58:19.517304+00:00",
+    "cache_ttl_days": 30
+  },
+  "input_events": 3909986
+}

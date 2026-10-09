@@ -1,0 +1,39 @@
+# Local datasets, models, service storage and dependencies
+/data/
+/.runtime/
+/.tools/
+/.venv/
+/.venv-airflow/
+/work/
+/artifacts/
+/spark-warehouse/
+
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+credentials.json
+passwords.json
+secrets.json
+*.pem
+*.key
+/config/hadoop/
+/config/hadoop-verification/
+
+# Regenerable caches, temporary downloads and execution output
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.pyc
+*.part
+.DS_Store
+/reports/**/*.log
+/reports/**/*.xml
+/reports/*.log
+/reports/*.xml
+
+# Local-only original prompts, package inventory and obsolete review artifacts
+/docs/references/
+/reports/week8/source_package.json
+/reports/week5/dashboard_pending.jpg
+/reports/**/* 2.*

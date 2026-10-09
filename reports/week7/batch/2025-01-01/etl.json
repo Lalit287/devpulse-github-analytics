@@ -1,0 +1,15 @@
+{
+  "stage": "etl",
+  "source_date": "2025-01-01",
+  "completed_at_utc": "2026-10-08T20:56:43.597029+00:00",
+  "duration_seconds": 3.171,
+  "result": {
+    "status": "reused",
+    "snapshot_id": "9e0424d9ad1806b0b1f28345",
+    "duration_seconds": 3.08,
+    "manifest": "/Users/lalitaditya/Desktop/DevPulse/data/orchestrated/2025-01-01/silver/snapshots/9e0424d9ad1806b0b1f28345/manifest.json",
+    "clean_events": 3909986,
+    "source_archives": 24,
+    "inputs_checksum_verified": true
+  }
+}

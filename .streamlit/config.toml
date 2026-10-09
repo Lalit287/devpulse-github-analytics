@@ -1,0 +1,16 @@
+[theme]
+base="light"
+primaryColor="#008b78"
+backgroundColor="#f8fafc"
+secondaryBackgroundColor="#edf2f7"
+textColor="#142132"
+font="sans serif"
+
+[server]
+address="127.0.0.1"
+port=18501
+headless=true
+fileWatcherType="none"
+
+[browser]
+gatherUsageStats=false

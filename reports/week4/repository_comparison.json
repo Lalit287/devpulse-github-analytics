@@ -1,0 +1,38 @@
+[
+  {
+    "repo_id": 535010087,
+    "repo_name": "louis-e/arnis",
+    "total_events": 767,
+    "star_events": 734,
+    "fork_events": 6,
+    "push_events": 0,
+    "pull_requests_opened": 4,
+    "issues_opened": 3,
+    "active_accounts": 744,
+    "code_participating_accounts": 2,
+    "previous_attention": 390,
+    "current_attention": 350,
+    "attention_growth_ratio": 0.8976982097186701,
+    "attention_change_percent": -10.256410256410257,
+    "activity_score": 0.6331979957329767,
+    "trend_score": 0.4432385970130837
+  },
+  {
+    "repo_id": 908531752,
+    "repo_name": "deepseek-ai/DeepSeek-V3",
+    "total_events": 760,
+    "star_events": 680,
+    "fork_events": 64,
+    "push_events": 0,
+    "pull_requests_opened": 1,
+    "issues_opened": 7,
+    "active_accounts": 725,
+    "code_participating_accounts": 1,
+    "previous_attention": 406,
+    "current_attention": 338,
+    "attention_growth_ratio": 0.8329238329238329,
+    "attention_change_percent": -16.748768472906406,
+    "activity_score": 0.7212678241428185,
+    "trend_score": 0.5048874768999729
+  }
+]

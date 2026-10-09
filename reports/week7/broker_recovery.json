@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "before": {
+    "0": [
+      0,
+      71320
+    ],
+    "1": [
+      0,
+      76080
+    ],
+    "2": [
+      0,
+      77138
+    ]
+  },
+  "after": {
+    "0": [
+      0,
+      71320
+    ],
+    "1": [
+      0,
+      76080
+    ],
+    "2": [
+      0,
+      77138
+    ]
+  },
+  "broker": {
+    "status": "healthy",
+    "cluster_id": "8TPZx1szRRW54gnBjCDNpA",
+    "bootstrap_servers": "127.0.0.1:19292",
+    "brokers": 1
+  }
+}

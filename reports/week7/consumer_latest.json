@@ -1,0 +1,34 @@
+{
+  "stream_id": "historical-20250101-12",
+  "checkpoint": "/Users/lalitaditya/Desktop/DevPulse/.runtime/streaming/historical-20250101-12/main",
+  "receipt": {
+    "stream_id": "historical-20250101-12",
+    "digest": "834aeef4c4d7595b2eb861c1a4355834c2d5b73d139ef23aa158d3d7bd180271",
+    "batch_id": 22,
+    "input_rows": 3566,
+    "new_messages": 3566,
+    "new_events": 3566,
+    "duplicates": 0,
+    "invalid": 0,
+    "conflicts": 0,
+    "late_events": 0,
+    "reused": false,
+    "offset_ranges": {
+      "devpulse.historical-20250101-12:0": {
+        "start": 69829,
+        "end_exclusive": 70961,
+        "rows": 1132
+      },
+      "devpulse.historical-20250101-12:1": {
+        "start": 74553,
+        "end_exclusive": 75762,
+        "rows": 1209
+      },
+      "devpulse.historical-20250101-12:2": {
+        "start": 75592,
+        "end_exclusive": 76817,
+        "rows": 1225
+      }
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "status": "complete",
+  "stream_id": "recovery-bd347faa6ae9",
+  "continuous": false,
+  "checkpoint": "/Users/lalitaditya/Desktop/DevPulse/.runtime/streaming/recovery-bd347faa6ae9/main",
+  "progress": [
+    {
+      "id": "05d7de84-063f-4932-99e4-38477d2558e3",
+      "runId": "0b747253-3a6f-4d57-9711-38bcc2bc5d60",
+      "name": "devpulse_recovery_bd347faa6ae9",
+      "timestamp": "2026-10-08T20:55:59.678Z",
+      "batchId": 0,
+      "batchDuration": 1777,
+      "numInputRows": 9999,
+      "inputRowsPerSecond": 0.0,
+      "processedRowsPerSecond": 5626.899268429938,
+      "durationMs": {
+        "addBatch": 1532,
+        "commitOffsets": 75,
+        "getBatch": 2,
+        "latestOffset": 8,
+        "queryPlanning": 119,
+        "triggerExecution": 1776,
+        "walCommit": 34
+      },
+      "stateOperators": [],
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[devpulse.recovery-bd347faa6ae9]]",
+          "startOffset": null,
+          "endOffset": {
+            "devpulse.recovery-bd347faa6ae9": {
+              "0": 3149,
+              "1": 3491,
+              "2": 3359
+            }
+          },
+          "latestOffset": {
+            "devpulse.recovery-bd347faa6ae9": {
+              "0": 6298,
+              "1": 6982,
+              "2": 6719
+            }
+          },
+          "numInputRows": 9999,
+          "inputRowsPerSecond": 0.0,
+          "processedRowsPerSecond": 5626.899268429938,
+          "metrics": {
+            "avgOffsetsBehindLatest": "3333.3333333333335",
+            "maxOffsetsBehindLatest": "3491",
+            "minOffsetsBehindLatest": "3149"
+          }
+        }
+      ],
+      "sink": {
+        "description": "ForeachBatchSink",
+        "numOutputRows": -1
+      }
+    },
+    {
+      "id": "05d7de84-063f-4932-99e4-38477d2558e3",
+      "runId": "0b747253-3a6f-4d57-9711-38bcc2bc5d60",
+      "name": "devpulse_recovery_bd347faa6ae9",
+      "timestamp": "2026-10-08T20:56:01.460Z",
+      "batchId": 1,
+      "batchDuration": 2385,
+      "numInputRows": 10000,
+      "inputRowsPerSecond": 5611.672278338945,
+      "processedRowsPerSecond": 4192.8721174004195,
+      "durationMs": {
+        "addBatch": 2299,
+        "commitOffsets": 46,
+        "getBatch": 0,
+        "latestOffset": 1,
+        "queryPlanning": 6,
+        "triggerExecution": 2385,
+        "walCommit": 32
+      },
+      "stateOperators": [],
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[devpulse.recovery-bd347faa6ae9]]",
+          "startOffset": {
+            "devpulse.recovery-bd347faa6ae9": {
+              "0": 3149,
+              "1": 3491,
+              "2": 3359
+            }
+          },
+          "endOffset": {
+            "devpulse.recovery-bd347faa6ae9": {
+              "0": 6298,
+              "1": 6982,
+              "2": 6719
+            }
+          },
+          "latestOffset": {
+            "devpulse.recovery-bd347faa6ae9": {
+              "0": 6298,
+              "1": 6982,
+              "2": 6719
+            }
+          },
+          "numInputRows": 10000,
+          "inputRowsPerSecond": 5611.672278338945,
+          "processedRowsPerSecond": 4192.8721174004195,
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          }
+        }
+      ],
+      "sink": {
+        "description": "ForeachBatchSink",
+        "numOutputRows": -1
+      }
+    }
+  ],
+  "receipts": [
+    {
+      "stream_id": "recovery-bd347faa6ae9",
+      "digest": "98c7777c12043d7ef1c9bb1652522cb824f423d11a408bf2009bec5a2e64fa76",
+      "batch_id": 0,
+      "input_rows": 9999,
+      "new_messages": 9999,
+      "new_events": 9999,
+      "duplicates": 0,
+      "invalid": 0,
+      "conflicts": 0,
+      "late_events": 0,
+      "reused": false,
+      "offset_ranges": {
+        "devpulse.recovery-bd347faa6ae9:0": {
+          "start": 0,
+          "end_exclusive": 3149,
+          "rows": 3149
+        },
+        "devpulse.recovery-bd347faa6ae9:1": {
+          "start": 0,
+          "end_exclusive": 3491,
+          "rows": 3491
+        },
+        "devpulse.recovery-bd347faa6ae9:2": {
+          "start": 0,
+          "end_exclusive": 3359,
+          "rows": 3359
+        }
+      }
+    },
+    {
+      "stream_id": "recovery-bd347faa6ae9",
+      "digest": "d6ec814b397ddc0fc947deb44894b7433c42fea9a576979ac5e4392df0db612b",
+      "batch_id": 1,
+      "input_rows": 10000,
+      "new_messages": 10000,
+      "new_events": 10000,
+      "duplicates": 0,
+      "invalid": 0,
+      "conflicts": 0,
+      "late_events": 0,
+      "reused": false,
+      "offset_ranges": {
+        "devpulse.recovery-bd347faa6ae9:0": {
+          "start": 3149,
+          "end_exclusive": 6298,
+          "rows": 3149
+        },
+        "devpulse.recovery-bd347faa6ae9:1": {
+          "start": 3491,
+          "end_exclusive": 6982,
+          "rows": 3491
+        },
+        "devpulse.recovery-bd347faa6ae9:2": {
+          "start": 3359,
+          "end_exclusive": 6719,
+          "rows": 3360
+        }
+      }
+    }
+  ]
+}

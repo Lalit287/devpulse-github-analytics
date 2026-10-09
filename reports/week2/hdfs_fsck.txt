@@ -1,0 +1,154 @@
+FSCK started by lalitaditya (auth:SIMPLE) from /127.0.0.1 for path /devpulse/bronze at Thu Oct 08 22:19:03 IST 2026
+
+/devpulse/bronze <dir>
+/devpulse/bronze/date=2025-01-01 <dir>
+/devpulse/bronze/date=2025-01-01/hour=00 <dir>
+/devpulse/bronze/date=2025-01-01/hour=00/2025-01-01-0.json.gz 70209251 bytes, replicated: replication=1, 2 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741825_1001 len=67108864 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+1. BP-1515461680-127.0.0.1-1791477790624:blk_1073741826_1002 len=3100387 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=01 <dir>
+/devpulse/bronze/date=2025-01-01/hour=01/2025-01-01-1.json.gz 76479472 bytes, replicated: replication=1, 2 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741827_1003 len=67108864 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+1. BP-1515461680-127.0.0.1-1791477790624:blk_1073741828_1004 len=9370608 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=02 <dir>
+/devpulse/bronze/date=2025-01-01/hour=02/2025-01-01-2.json.gz 65395734 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741829_1005 len=65395734 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=03 <dir>
+/devpulse/bronze/date=2025-01-01/hour=03/2025-01-01-3.json.gz 75175108 bytes, replicated: replication=1, 2 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741830_1006 len=67108864 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+1. BP-1515461680-127.0.0.1-1791477790624:blk_1073741831_1007 len=8066244 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=04 <dir>
+/devpulse/bronze/date=2025-01-01/hour=04/2025-01-01-4.json.gz 63514414 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741832_1008 len=63514414 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=05 <dir>
+/devpulse/bronze/date=2025-01-01/hour=05/2025-01-01-5.json.gz 58059728 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741833_1009 len=58059728 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=06 <dir>
+/devpulse/bronze/date=2025-01-01/hour=06/2025-01-01-6.json.gz 61662727 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741834_1010 len=61662727 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=07 <dir>
+/devpulse/bronze/date=2025-01-01/hour=07/2025-01-01-7.json.gz 61055908 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741835_1011 len=61055908 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=08 <dir>
+/devpulse/bronze/date=2025-01-01/hour=08/2025-01-01-8.json.gz 58922311 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741836_1012 len=58922311 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=09 <dir>
+/devpulse/bronze/date=2025-01-01/hour=09/2025-01-01-9.json.gz 62528603 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741837_1013 len=62528603 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=10 <dir>
+/devpulse/bronze/date=2025-01-01/hour=10/2025-01-01-10.json.gz 64095720 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741838_1014 len=64095720 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=11 <dir>
+/devpulse/bronze/date=2025-01-01/hour=11/2025-01-01-11.json.gz 64748907 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741839_1015 len=64748907 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=12 <dir>
+/devpulse/bronze/date=2025-01-01/hour=12/2025-01-01-12.json.gz 76173404 bytes, replicated: replication=1, 2 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741840_1016 len=67108864 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+1. BP-1515461680-127.0.0.1-1791477790624:blk_1073741841_1017 len=9064540 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=13 <dir>
+/devpulse/bronze/date=2025-01-01/hour=13/2025-01-01-13.json.gz 75465126 bytes, replicated: replication=1, 2 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741842_1018 len=67108864 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+1. BP-1515461680-127.0.0.1-1791477790624:blk_1073741843_1019 len=8356262 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=14 <dir>
+/devpulse/bronze/date=2025-01-01/hour=14/2025-01-01-14.json.gz 69609324 bytes, replicated: replication=1, 2 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741844_1020 len=67108864 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+1. BP-1515461680-127.0.0.1-1791477790624:blk_1073741845_1021 len=2500460 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=15 <dir>
+/devpulse/bronze/date=2025-01-01/hour=15/2025-01-01-15.json.gz 72578615 bytes, replicated: replication=1, 2 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741846_1022 len=67108864 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+1. BP-1515461680-127.0.0.1-1791477790624:blk_1073741847_1023 len=5469751 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=16 <dir>
+/devpulse/bronze/date=2025-01-01/hour=16/2025-01-01-16.json.gz 73129319 bytes, replicated: replication=1, 2 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741848_1024 len=67108864 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+1. BP-1515461680-127.0.0.1-1791477790624:blk_1073741849_1025 len=6020455 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=17 <dir>
+/devpulse/bronze/date=2025-01-01/hour=17/2025-01-01-17.json.gz 70455601 bytes, replicated: replication=1, 2 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741850_1026 len=67108864 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+1. BP-1515461680-127.0.0.1-1791477790624:blk_1073741851_1027 len=3346737 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=18 <dir>
+/devpulse/bronze/date=2025-01-01/hour=18/2025-01-01-18.json.gz 74601035 bytes, replicated: replication=1, 2 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741852_1028 len=67108864 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+1. BP-1515461680-127.0.0.1-1791477790624:blk_1073741853_1029 len=7492171 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=19 <dir>
+/devpulse/bronze/date=2025-01-01/hour=19/2025-01-01-19.json.gz 69897024 bytes, replicated: replication=1, 2 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741854_1030 len=67108864 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+1. BP-1515461680-127.0.0.1-1791477790624:blk_1073741855_1031 len=2788160 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=20 <dir>
+/devpulse/bronze/date=2025-01-01/hour=20/2025-01-01-20.json.gz 67411278 bytes, replicated: replication=1, 2 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741856_1032 len=67108864 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+1. BP-1515461680-127.0.0.1-1791477790624:blk_1073741857_1033 len=302414 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=21 <dir>
+/devpulse/bronze/date=2025-01-01/hour=21/2025-01-01-21.json.gz 66381290 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741858_1034 len=66381290 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=22 <dir>
+/devpulse/bronze/date=2025-01-01/hour=22/2025-01-01-22.json.gz 62236421 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741859_1035 len=62236421 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+/devpulse/bronze/date=2025-01-01/hour=23 <dir>
+/devpulse/bronze/date=2025-01-01/hour=23/2025-01-01-23.json.gz 58936849 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-1515461680-127.0.0.1-1791477790624:blk_1073741860_1036 len=58936849 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:19966,DS-343c3425-e61d-46d6-9fe2-1e8380b7b164,DISK]]
+
+
+Status: HEALTHY
+ Number of data-nodes:	1
+ Number of racks:		1
+ Total dirs:			26
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	1618723169 B
+ Total files:	24
+ Total blocks (validated):	36 (avg. block size 44964532 B)
+ Minimally replicated blocks:	36 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	1
+ Average block replication:	1.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Blocks queued for replication:	0
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+ Blocks queued for replication:	0
+FSCK ended at Thu Oct 08 22:19:03 IST 2026 in 9 milliseconds
+
+
+The filesystem under path '/devpulse/bronze' is HEALTHY
+
+2026-10-08 22:19:03,064 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Connecting to namenode via http://127.0.0.1:19970/fsck?ugi=lalitaditya&files=1&blocks=1&locations=1&path=%2Fdevpulse%2Fbronze

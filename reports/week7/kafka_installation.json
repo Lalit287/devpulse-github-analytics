@@ -1,0 +1,6 @@
+{
+  "version": "4.2.2",
+  "source": "https://downloads.apache.org/kafka/4.2.2/kafka_2.13-4.2.2.tgz",
+  "sha512": "acb9961f7ec72f5ff1544afdfbcca39030f2c9ca0d80e8466cf961bd83ae2030bafc28d2577f3f1a099b39c06e6252b8886c1eaf6477f2a2aca8be8b68c0b25e",
+  "verified": true
+}

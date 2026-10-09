@@ -1,0 +1,9 @@
+{
+  "status": "created",
+  "snapshot_id": "af58c7e04f3214f945ed03a9",
+  "duration_seconds": 196.4,
+  "manifest": "/Users/lalitaditya/Desktop/DevPulse/data/silver/snapshots/af58c7e04f3214f945ed03a9/manifest.json",
+  "clean_events": 3909986,
+  "source_archives": 24,
+  "inputs_checksum_verified": true
+}

@@ -1,0 +1,16 @@
+{
+  "namenode": "healthy",
+  "live_datanodes": 1,
+  "hdfs_uri": "hdfs://127.0.0.1:19000",
+  "ports": {
+    "rpc": 19000,
+    "namenode_http": 19870,
+    "datanode_http": 19864,
+    "datanode_data": 19866,
+    "datanode_ipc": 19867
+  },
+  "configuration_dir": "/Users/lalitaditya/Desktop/DevPulse/config/hadoop",
+  "runtime_dir": "/Users/lalitaditya/Desktop/DevPulse/.runtime/hdfs",
+  "formatted_new_cluster": true,
+  "reused_running_cluster": false
+}

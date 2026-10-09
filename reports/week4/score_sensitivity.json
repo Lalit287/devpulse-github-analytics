@@ -1,0 +1,338 @@
+{
+  "balanced": {
+    "activity_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "top20_overlap_with_default": 17,
+    "top20_jaccard": 0.7391304347826086,
+    "top20": [
+      {
+        "repo_id": 707551301,
+        "repo_name": "deepseek-ai/DeepSeek-Coder",
+        "alternative_score": 0.6740630487491714
+      },
+      {
+        "repo_id": 543293939,
+        "repo_name": "bytedance/monolith",
+        "alternative_score": 0.662816671244931
+      },
+      {
+        "repo_id": 910293632,
+        "repo_name": "stansey968/python-keylogger",
+        "alternative_score": 0.6586708868402498
+      },
+      {
+        "repo_id": 910518380,
+        "repo_name": "jueltune7/Blank-Grabber",
+        "alternative_score": 0.6522326381391385
+      },
+      {
+        "repo_id": 910294067,
+        "repo_name": "rayden6645/telegram-mass-advertiser",
+        "alternative_score": 0.6506784599169064
+      },
+      {
+        "repo_id": 910293273,
+        "repo_name": "kingfisher369/linkedin-scraper",
+        "alternative_score": 0.6499999999999999
+      },
+      {
+        "repo_id": 910293653,
+        "repo_name": "buckshot38orlando/coinbase-trading-bot",
+        "alternative_score": 0.648828065429187
+      },
+      {
+        "repo_id": 910256516,
+        "repo_name": "optimistvova705/Discord-image-logger",
+        "alternative_score": 0.648702433466416
+      },
+      {
+        "repo_id": 910612375,
+        "repo_name": "crazymendixlofos10/fake-usdt-sender",
+        "alternative_score": 0.6476303939009289
+      },
+      {
+        "repo_id": 910519757,
+        "repo_name": "brodyaga6750/exodus-wallet-cracker",
+        "alternative_score": 0.6449265306134413
+      },
+      {
+        "repo_id": 910293295,
+        "repo_name": "flashdirrekt695/discord-vanity-sniper",
+        "alternative_score": 0.6404304654564988
+      },
+      {
+        "repo_id": 910520729,
+        "repo_name": "faring55delvir/Python-Discord-Bot-Template",
+        "alternative_score": 0.6336952724796834
+      },
+      {
+        "repo_id": 664013991,
+        "repo_name": "gitroomhq/postiz-app",
+        "alternative_score": 0.633420516965603
+      },
+      {
+        "repo_id": 910864233,
+        "repo_name": "caxapok5656/tron-wallet",
+        "alternative_score": 0.632659438241254
+      },
+      {
+        "repo_id": 910293349,
+        "repo_name": "numlockbeardedler/seedphrase-checker",
+        "alternative_score": 0.6290653833365245
+      },
+      {
+        "repo_id": 837911756,
+        "repo_name": "feder-cr/Jobs_Applier_AI_Agent",
+        "alternative_score": 0.6181501725683469
+      },
+      {
+        "repo_id": 910293589,
+        "repo_name": "maxthegamer429/discord-booster-tool",
+        "alternative_score": 0.6153875377964853
+      },
+      {
+        "repo_id": 728759660,
+        "repo_name": "towardsai/ai-tutor-rag-system",
+        "alternative_score": 0.6072034102947665
+      },
+      {
+        "repo_id": 910293563,
+        "repo_name": "minchin24/crypto-wallet-tracker",
+        "alternative_score": 0.6063948369107564
+      },
+      {
+        "repo_id": 910293469,
+        "repo_name": "herry1805/crypter",
+        "alternative_score": 0.6007405030958859
+      }
+    ]
+  },
+  "star_emphasis": {
+    "activity_weights": [
+      0.7,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "top20_overlap_with_default": 9,
+    "top20_jaccard": 0.2903225806451613,
+    "top20": [
+      {
+        "repo_id": 707551301,
+        "repo_name": "deepseek-ai/DeepSeek-Coder",
+        "alternative_score": 0.835877140605588
+      },
+      {
+        "repo_id": 543293939,
+        "repo_name": "bytedance/monolith",
+        "alternative_score": 0.8281407889325629
+      },
+      {
+        "repo_id": 664013991,
+        "repo_name": "gitroomhq/postiz-app",
+        "alternative_score": 0.7678549114531724
+      },
+      {
+        "repo_id": 910866014,
+        "repo_name": "vojkanrojek-18glam/spoofer-riot",
+        "alternative_score": 0.7611695000254937
+      },
+      {
+        "repo_id": 910864233,
+        "repo_name": "caxapok5656/tron-wallet",
+        "alternative_score": 0.746545045970587
+      },
+      {
+        "repo_id": 837911756,
+        "repo_name": "feder-cr/Jobs_Applier_AI_Agent",
+        "alternative_score": 0.7340803452193959
+      },
+      {
+        "repo_id": 515647260,
+        "repo_name": "1Panel-dev/1Panel",
+        "alternative_score": 0.7120602271317473
+      },
+      {
+        "repo_id": 728759660,
+        "repo_name": "towardsai/ai-tutor-rag-system",
+        "alternative_score": 0.703488057857041
+      },
+      {
+        "repo_id": 694939378,
+        "repo_name": "QwenLM/Qwen-Agent",
+        "alternative_score": 0.6862977913806614
+      },
+      {
+        "repo_id": 255172530,
+        "repo_name": "PartialVolume/shredos.x86_64",
+        "alternative_score": 0.6845524900750293
+      },
+      {
+        "repo_id": 424069513,
+        "repo_name": "luchina-gabriel/OSX-PROXMOX",
+        "alternative_score": 0.6835389346138927
+      },
+      {
+        "repo_id": 286179743,
+        "repo_name": "DustinBrett/daedalOS",
+        "alternative_score": 0.6834155968664821
+      },
+      {
+        "repo_id": 271334658,
+        "repo_name": "JimmyLaurent/hcaptcha-solver",
+        "alternative_score": 0.6805683938072454
+      },
+      {
+        "repo_id": 491304964,
+        "repo_name": "alufers/mitmproxy2swagger",
+        "alternative_score": 0.6713049148085398
+      },
+      {
+        "repo_id": 910566909,
+        "repo_name": "ankitpathak62/Login-Page-Animation",
+        "alternative_score": 0.6621716844687118
+      },
+      {
+        "repo_id": 437245741,
+        "repo_name": "dragonflydb/dragonfly",
+        "alternative_score": 0.6572115973505315
+      },
+      {
+        "repo_id": 792796832,
+        "repo_name": "apiparrot/apiparrot-desktop-releases",
+        "alternative_score": 0.642279778340067
+      },
+      {
+        "repo_id": 410750384,
+        "repo_name": "fdcastel/Proxmox-Automation",
+        "alternative_score": 0.6324453437285806
+      },
+      {
+        "repo_id": 898968194,
+        "repo_name": "huggingface/smolagents",
+        "alternative_score": 0.6310268956248203
+      },
+      {
+        "repo_id": 783745272,
+        "repo_name": "tahir-zaqout/Luna-Executor",
+        "alternative_score": 0.6273544475801955
+      }
+    ]
+  },
+  "participation_emphasis": {
+    "activity_weights": [
+      0.2,
+      0.1,
+      0.6,
+      0.1
+    ],
+    "top20_overlap_with_default": 17,
+    "top20_jaccard": 0.7391304347826086,
+    "top20": [
+      {
+        "repo_id": 707551301,
+        "repo_name": "deepseek-ai/DeepSeek-Coder",
+        "alternative_score": 0.826324435962188
+      },
+      {
+        "repo_id": 543293939,
+        "repo_name": "bytedance/monolith",
+        "alternative_score": 0.8182240116108357
+      },
+      {
+        "repo_id": 910293632,
+        "repo_name": "stansey968/python-keylogger",
+        "alternative_score": 0.7905430578025064
+      },
+      {
+        "repo_id": 910293273,
+        "repo_name": "kingfisher369/linkedin-scraper",
+        "alternative_score": 0.7899999999999999
+      },
+      {
+        "repo_id": 910612375,
+        "repo_name": "crazymendixlofos10/fake-usdt-sender",
+        "alternative_score": 0.7866825514613004
+      },
+      {
+        "repo_id": 910518380,
+        "repo_name": "jueltune7/Blank-Grabber",
+        "alternative_score": 0.7815361014081009
+      },
+      {
+        "repo_id": 910294067,
+        "repo_name": "rayden6645/telegram-mass-advertiser",
+        "alternative_score": 0.779361963780947
+      },
+      {
+        "repo_id": 910293653,
+        "repo_name": "buckshot38orlando/coinbase-trading-bot",
+        "alternative_score": 0.7767735146265453
+      },
+      {
+        "repo_id": 910256516,
+        "repo_name": "optimistvova705/Discord-image-logger",
+        "alternative_score": 0.77659777528616
+      },
+      {
+        "repo_id": 910519757,
+        "repo_name": "brodyaga6750/exodus-wallet-cracker",
+        "alternative_score": 0.7713160424067335
+      },
+      {
+        "repo_id": 910520729,
+        "repo_name": "faring55delvir/Python-Discord-Bot-Template",
+        "alternative_score": 0.7671733814715569
+      },
+      {
+        "repo_id": 910293295,
+        "repo_name": "flashdirrekt695/discord-vanity-sniper",
+        "alternative_score": 0.7650273742264504
+      },
+      {
+        "repo_id": 664013991,
+        "repo_name": "gitroomhq/postiz-app",
+        "alternative_score": 0.7629943663866527
+      },
+      {
+        "repo_id": 910866014,
+        "repo_name": "vojkanrojek-18glam/spoofer-riot",
+        "alternative_score": 0.7524681058124116
+      },
+      {
+        "repo_id": 910293349,
+        "repo_name": "numlockbeardedler/seedphrase-checker",
+        "alternative_score": 0.7491333208469072
+      },
+      {
+        "repo_id": 910293589,
+        "repo_name": "maxthegamer429/discord-booster-tool",
+        "alternative_score": 0.7415425529150793
+      },
+      {
+        "repo_id": 910864233,
+        "repo_name": "caxapok5656/tron-wallet",
+        "alternative_score": 0.738918677093625
+      },
+      {
+        "repo_id": 910293563,
+        "repo_name": "minchin24/crypto-wallet-tracker",
+        "alternative_score": 0.728952771675059
+      },
+      {
+        "repo_id": 837911756,
+        "repo_name": "feder-cr/Jobs_Applier_AI_Agent",
+        "alternative_score": 0.7288728066925019
+      },
+      {
+        "repo_id": 910293469,
+        "repo_name": "herry1805/crypter",
+        "alternative_score": 0.7210367043342403
+      }
+    ]
+  }
+}

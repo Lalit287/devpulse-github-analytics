@@ -1,0 +1,7 @@
+{
+  "notebooks/01_gharchive_exploration.ipynb": "52744381a6f7ef11efb36fac3259a84e457f56258bb5ef06f3a7966fa221469c",
+  "reports/week1_report.md": "d0f39672a192d03f6ca0ad9092018dbd68554e535189e1043a992ddc038aafa6",
+  "data/raw/2025-01-01-12.json.gz": "db6cbf53e3c9d40590a45414d42869d22b6fe0f9faa20fe6bfc65be085a99e3e",
+  "data/samples/github_events_sample.jsonl": "67c119ecaf5a1d0a303d5b9572e3bc5ada3418e59ae46cb00b9d516f623b95fb",
+  "data/processed/analysis_summary.json": "b9a8532982b35e05f5ce83e963ff7f3d9ddad909357ff486af94b19a357e32d0"
+}

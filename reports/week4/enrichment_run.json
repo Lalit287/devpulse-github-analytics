@@ -1,0 +1,16 @@
+{
+  "selected_repositories": 20,
+  "cache_hits": 0,
+  "http_requests": 37,
+  "request_budget": 50,
+  "rate_limit_remaining": 23,
+  "rate_limit_reset": "1791484862",
+  "stopped_reason": null,
+  "status_counts": {
+    "identity_mismatch": 1,
+    "not_found": 3,
+    "ok": 16
+  },
+  "completed_at_utc": "2026-10-08T17:41:14.984839+00:00",
+  "cache_ttl_days": 30
+}

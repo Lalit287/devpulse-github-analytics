@@ -1,0 +1,11 @@
+{
+  "topic": "devpulse.historical-20250101-12",
+  "acknowledged": 223540,
+  "configured_events_per_second": 10000,
+  "elapsed_seconds": 22.354,
+  "source_snapshot": "37f73c2302379bc640363b8a",
+  "start_utc": "2025-01-01T12:00:00+00:00",
+  "end_utc": "2025-01-01T13:00:00+00:00",
+  "expected_events": 223540,
+  "stream_id": "historical-20250101-12"
+}

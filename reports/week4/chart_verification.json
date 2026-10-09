@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "charts": {
+    "repository_activity.png": {
+      "width": 1920,
+      "height": 960,
+      "sha256": "4e1db69fb6938e5f7b9ad624c674f95a765b541c59fb0bb8167363dca919b038",
+      "visually_reviewed": true
+    },
+    "intraday_attention.png": {
+      "width": 1920,
+      "height": 960,
+      "sha256": "83866a174300f15e3da94734dae12d8e8ef6211ad5f0c014e7e8d1c37b55c131",
+      "visually_reviewed": true
+    },
+    "language_associations.png": {
+      "width": 1920,
+      "height": 800,
+      "sha256": "7d76b52316f5aee2898dd2f592c0d92a66385d96b6158264235b19e6f78ddad7",
+      "visually_reviewed": true
+    },
+    "account_activity.png": {
+      "width": 1920,
+      "height": 960,
+      "sha256": "93b3e6b61a750b061d8aa6fa42a24ffce6861b470a9164d7fe88d0599b550ba2",
+      "visually_reviewed": true
+    }
+  }
+}

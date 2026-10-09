@@ -1,0 +1,6 @@
+{
+  "failure": "Java heap exhausted in deduplication on initial 4 GiB / 24-partition attempt",
+  "current_snapshot_after_failure": "db459d69849e4ddbac45d9e1",
+  "current_manifest_verified": true,
+  "incomplete_staging_removed": true
+}
