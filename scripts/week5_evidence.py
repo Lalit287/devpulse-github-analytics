@@ -20,7 +20,7 @@ TEST_GROUPS = {
 
 
 def code_hashes():
-    paths = [ROOT / 'requirements.txt', ROOT / '.streamlit/config.toml']
+    paths = [ROOT / 'pyproject.toml', ROOT / '.streamlit/config.toml']
     for directory in ['database', 'dashboard', 'scripts']:
         paths.extend((ROOT / directory).rglob('*.py'))
     paths.extend((ROOT / 'database').glob('*.sql'))

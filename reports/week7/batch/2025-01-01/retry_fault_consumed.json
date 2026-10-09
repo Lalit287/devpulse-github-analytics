@@ -1,4 +1,0 @@
-{
-  "expected": "one controlled collection failure to exercise Airflow retry",
-  "stage": "collect"
-}

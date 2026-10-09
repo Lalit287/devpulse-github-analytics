@@ -188,4 +188,4 @@ The integration audit checks table keys and totals, every Week 3 daily repositor
 metric row, global account/repository pair counts, equal-window counters, cache
 identities, allocation totals, rerun reuse, alternate ranking weights, and retained
 Week 1–3 artifacts. Read [the table contract](contracts/gold_analytics.md) and
-[the measured report](../reports/week4_report.md).
+the locally generated `reports/week4_report.md`.

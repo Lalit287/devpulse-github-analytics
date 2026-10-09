@@ -54,5 +54,5 @@ def code_hashes():
     paths=[]
     for folder in ['deployment','benchmarks','dashboard','tests','storage','database','spark','analytics','modeling','streaming','orchestration','enrichment','ingestion','exploration','config']:
         paths+=list((ROOT/folder).rglob('*.py'));paths+=list((ROOT/folder).rglob('*.sql'))
-    paths+=list((ROOT/'scripts').glob('*week8*.py'))
+    paths+=list((ROOT/'scripts').glob('*.py'))+[ROOT/'pyproject.toml',ROOT/'.github/workflows/offline-contracts.yml']
     return {str(p.relative_to(ROOT)):sha256_file(p) for p in sorted(paths)}

@@ -15,7 +15,7 @@ def hashes():
     paths=[]
     for folder in ['streaming','orchestration','dashboard','tests']:
         paths+=list((ROOT/folder).rglob('*.py'));paths+=list((ROOT/folder).glob('*.sql'))
-    paths+=list((ROOT/'scripts').glob('*week7*.py'))+[ROOT/'analytics/pipeline.py',ROOT/'enrichment/github.py',ROOT/'requirements.txt']
+    paths+=list((ROOT/'scripts').glob('*week7*.py'))+[ROOT/'analytics/pipeline.py',ROOT/'enrichment/github.py',ROOT/'pyproject.toml']
     return {str(p.relative_to(ROOT)):sha256_file(p) for p in sorted(paths)}
 
 def capture_workflows():

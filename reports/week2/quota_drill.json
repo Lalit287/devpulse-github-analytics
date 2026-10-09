@@ -1,8 +1,0 @@
-{
-  "status": "passed",
-  "expected_failure": "HDFS space quota exceeded",
-  "collection_status": "failed",
-  "actual_error": "HTTPError: 403 Client Error: Forbidden for url: http://127.0.0.1:19964/webhdfs/v1/devpulse/quota-drill/date=2025-01-01/hour=00/2025-01-01-0.json.gz.084ad0f0196745019949cc049a2d06aa.uploading?op=CREATE&user.name=lalitaditya&namenoderpcaddress=127.0.0.1:19100&blocksize=67108864&createflag=&createparent=true&overwrite=false&replication=1; DSQuotaExceededException: The DiskSpace quota of /devpulse/quota-drill is exceeded: quota = 1 B = 1 B but diskspace consumed = 67108864 B = 64 MB",
-  "remaining_files": 0,
-  "remaining_bytes": 0
-}

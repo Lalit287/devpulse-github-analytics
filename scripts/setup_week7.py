@@ -1,5 +1,5 @@
 """Install pinned, isolated Week 7 runtimes from official sources."""
-import hashlib,json,subprocess,sys,tarfile
+import hashlib,json,subprocess,sys,tarfile,tomllib
 from pathlib import Path
 import requests
 from config.settings import ROOT
@@ -30,7 +30,8 @@ def setup():
     constraints=ROOT/'orchestration/constraints-airflow-3.3.2-python3.12.txt'
     if not constraints.is_file():
         r=requests.get('https://raw.githubusercontent.com/apache/airflow/constraints-3.3.2/constraints-3.12.txt',timeout=30);r.raise_for_status();constraints.write_text(r.text)
-    subprocess.run([str(env/'bin/python'),'-m','pip','install','apache-airflow[postgres]==3.3.2','--constraint',str(constraints)],check=True)
+    spec=tomllib.loads((ROOT/'pyproject.toml').read_text())['tool']['devpulse']['runtime']['airflow-requirement']
+    subprocess.run([str(env/'bin/python'),'-m','pip','install',spec,'--constraint',str(constraints)],check=True)
     subprocess.run([sys.executable,'-m','pip','install','confluent-kafka==2.16.0'],check=True)
     install()
     print('Week 7 runtime installation complete')

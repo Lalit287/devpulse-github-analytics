@@ -1,7 +1,0 @@
-{
-  "status": "passed",
-  "error_class": "sqlalchemy.exc.TimeoutError",
-  "cause": "Airflow migration requires a separate PostgreSQL advisory-lock connection; pool size 1 with overflow 0 exhausted the pool",
-  "fix": "Use pool size 2 only for Airflow db migrate; preserve size 1 and overflow 0 for long-running services",
-  "verification": "Native migration completed and API, scheduler and DAG processor are healthy; final regression includes migration reuse and saved run-history parity"
-}

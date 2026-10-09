@@ -5,11 +5,11 @@ repository participation, technology associations, and future repository attenti
 DevPulse combines batch processing, historical-event streaming, chronological machine
 learning evaluation, and an interactive dashboard.
 
-**All eight project stages are completed and verified locally.** See the
-[final project report](reports/project_report.md), [performance report](reports/week8_report.md),
-and [verification receipt](reports/week8/verification.json) for measured results and test counts.
+**All eight project stages are completed and verified locally, with 231 passing tests.**
+Detailed run reports and datasets are generated and retained locally. This repository
+contains the implementation, documentation, notebook, tests, and a dashboard preview.
 
-![DevPulse dashboard with verified performance results](reports/week8/dashboard_verified.jpg)
+![DevPulse dashboard with verified performance results](docs/images/dashboard.jpg)
 
 ## What it does
 
@@ -67,26 +67,27 @@ container deployment are future extensions.
 | Compute benchmark | Three trials per configuration; identical exact results for every configuration |
 
 The selected gradient-boosted model achieved held-out PR-AUC **0.147934** and
-ROC-AUC **0.924828**. The model report includes target prevalence, baselines,
+ROC-AUC **0.924828**. The locally generated model report includes target prevalence, baselines,
 precision at selected ranks, decision threshold, and confusion counts.
 
 Pandas was faster for the tested narrow in-memory workload. A second worker
 provided little improvement on this Mac. Hour-partitioned Parquet reduced the
-candidate files for the measured hour query. See the performance report for
-cache, timing, memory, storage-projection, and latency scope.
+candidate files for the measured hour query. Locally generated performance
+reports record cache, timing, memory, storage-projection, and latency scope.
 
 ## Setup
 
 The measured environment uses Python 3.12, Java 17, PySpark 4.0.1,
 PostgreSQL 14, Hadoop 3.5, Kafka 4.2, Airflow 3.3, and Streamlit.
-The main Python dependencies are pinned in `requirements.txt`; Airflow has a
-separate environment and requirements under `orchestration/`.
+Python dependencies are pinned in `pyproject.toml`. Airflow runs in a separate
+environment created by `python -m scripts.setup_week7`; its version is declared
+in the same project configuration.
 
 ```bash
 git clone https://github.com/Lalit287/devpulse-github-analytics.git
 cd devpulse-github-analytics
 python3.12 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m pip install --editable .
 source scripts/activate.sh
 python -m pip check
 ```
@@ -139,13 +140,13 @@ The full suite requires the locally provisioned datasets and native services:
 | `orchestration/`, `streaming/` | Airflow workflows, Kafka replay and transactional streaming sink |
 | `benchmarks/`, `deployment/` | Measured evaluation and local deployment management |
 | `tests/` | Contracts, recovery, native integration and regression checks |
-| `docs/`, `reports/` | Architecture, operations guides, contracts and measured evidence |
+| `docs/` | Architecture, operations guides, contracts and dashboard preview |
 
 Large datasets, trained model artifacts, credentials, virtual environments,
 service storage, scratch output, logs, and generated Hadoop configuration stay
 local and are excluded from Git. HDFS configuration is generated for the current
-machine by the lifecycle commands. Weekly evidence needed for provenance and
-verification is retained.
+machine by the lifecycle commands. Generated reports, execution evidence and legacy dependency inventories stay local.
+The installation configuration lives in `pyproject.toml`.
 
 ## Interpretation
 

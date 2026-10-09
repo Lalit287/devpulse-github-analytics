@@ -4,7 +4,7 @@ from pathlib import Path
 from config.settings import ROOT
 from exploration.io import sha256_file,write_json
 FOLDERS=['analytics','benchmarks','config','dashboard','database','deployment','docs','enrichment','exploration','ingestion','modeling','notebooks','orchestration','scripts','spark','storage','streaming','tests','visualizations','.github','.streamlit','reports']
-ROOT_FILES=['README.md','.gitignore','.env.example','pytest.ini','requirements.txt','requirements-lock-macos-py312.txt','requirements-lock-macos-py312-week5.txt','requirements-lock-macos-py312-week7.txt']
+ROOT_FILES=['README.md','.gitignore','.env.example','pytest.ini','pyproject.toml']
 FORBIDDEN={'.git','.runtime','.tools','.venv','.venv-airflow','__pycache__','.pytest_cache','.ipynb_checkpoints'}
 
 
@@ -14,6 +14,7 @@ def allowed(relative):
     if p.is_absolute() or '..' in p.parts or any(part in FORBIDDEN for part in p.parts):return False
     if len(p.parts)>1 and (p.parts[0],p.parts[1]) in [('config','hadoop'),('config','hadoop-verification'),('docs','references')]:return False
     if p.parts[0]=='reports' and (p.name in ['source_package.json','dashboard_pending.jpg'] or ' 2.' in p.name):return False
+    if p.name.startswith('requirements') and p.suffix=='.txt':return False
     if p.name.startswith('.') and p.name not in ['.gitignore','.env.example']:return False
     if p.suffix in ['.pyc','.log'] or (p.suffix=='.xml' and p.parts[0]=='reports') or p.name in ['.env','credentials.json','passwords.json','secrets.json']:return False
     return True

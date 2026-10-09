@@ -23,8 +23,8 @@ several minutes. Per-table progress is printed; test output is in `reports/week5
 
 PostgreSQL 14.18 is already installed locally. The helper detects Homebrew's
 `postgresql@14` binaries even when they are absent from your shell PATH. The Python
-dependencies are pinned in `requirements.txt`; the new platform-specific freeze
-is `requirements-lock-macos-py312-week5.txt`. The original lock is preserved.
+dependencies are pinned in `pyproject.toml`; platform-specific dependency
+inventories remain local.
 
 ## Normal operation
 

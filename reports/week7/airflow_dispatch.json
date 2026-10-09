@@ -1,6 +1,0 @@
-{
-  "manual_run": "week7_retry_verification",
-  "dag": "devpulse_daily_batch",
-  "schedule": "0 8 * * *",
-  "source_date": "2025-01-01"
-}

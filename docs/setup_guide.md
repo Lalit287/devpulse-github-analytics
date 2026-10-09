@@ -50,7 +50,7 @@ From the DevPulse root:
 
 ```bash
 python3.12 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m pip install --editable .
 source scripts/activate.sh
 python -m pip check
 python -m scripts.environment_info
@@ -60,14 +60,14 @@ The exact interpreter used for the initial setup in this Codex desktop run was:
 
 ```bash
 /Users/lalitaditya/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m pip install --editable .
 ```
 
 That bundled path is specific to this machine. Recreate `.venv` with your own
 Python 3.12 if moving the project. Initial package installation needs internet
 access and downloads the approximately 434 MB PySpark distribution. The raw-data
-quota does not cover dependency installation. `requirements-lock-macos-py312.txt`
-records the exact installed transitive packages for this platform.
+quota does not cover dependency installation. `pyproject.toml` pins the direct
+dependencies; machine-specific dependency inventories remain local.
 
 ## 4. Run the bounded real-data pipeline
 

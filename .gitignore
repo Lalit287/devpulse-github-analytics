@@ -27,13 +27,15 @@ __pycache__/
 *.pyc
 *.part
 .DS_Store
-/reports/**/*.log
-/reports/**/*.xml
-/reports/*.log
-/reports/*.xml
 
-# Local-only original prompts, package inventory and obsolete review artifacts
+# Local-only original prompts
 /docs/references/
-/reports/week8/source_package.json
-/reports/week5/dashboard_pending.jpg
-/reports/**/* 2.*
+
+# Local evidence and legacy dependency inventories
+/reports/
+requirements*.txt
+
+# Python packaging build artifacts
+*.egg-info/
+/build/
+/dist/
